@@ -68,7 +68,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(94,197,126,0.1),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(52,211,153,0.08),transparent_50%)]" />
 
-        <div className="w-full max-w-7xl space-y-16 relative z-10">
+        <div className="w-full max-w-7xl space-y-16 relative z-20">
           <div className="flex flex-col items-center text-center space-y-12">
             <Badge
               variant="secondary"
@@ -80,7 +80,7 @@ export default function HomePage() {
             <div className="space-y-8 flex items-center justify-center flex-col">
               <h1 className="font-anton text-4xl md:text-7xl lg:text-8xl font-bold tracking-tight max-w-5xl leading-[0.9]">
                 <span className="block text-gray-900">EMPOWERING</span>
-                <span className="block bg-gradient-to-r from-primary via-emerald-500 to-teal-600 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-primary via-emerald-500 to-teal-600 bg-clip-text text-transparent font-bold">
                   DeFi LENDING
                 </span>
                 <span className="block text-gray-900">FOR EVERYONE</span>
@@ -92,13 +92,13 @@ export default function HomePage() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6 items-center pt-4">
-                <Button className="text-lg px-12 py-6 rounded-2xl bg-primary text-white border border-primary/20 shadow-xl hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-primary/25">
+                <Button className="text-lg px-12 py-6 rounded-2xl bg-primary text-white border border-primary/20 shadow-xl hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-primary/25 relative z-10">
                   <span className="flex items-center space-x-3">
                     <span>Start Lending</span>
                     <ArrowRight className="w-5 h-5" />
                   </span>
                 </Button>
-                <Button className="text-lg px-12 py-6 rounded-2xl bg-white/80 backdrop-blur-sm text-gray-900 border border-gray-200 shadow-lg hover:bg-white/90 transition-all duration-300 transform hover:scale-105">
+                <Button className="text-lg px-12 py-6 rounded-2xl bg-white/90 backdrop-blur-sm text-gray-900 border border-gray-200 shadow-lg hover:bg-white transition-all duration-300 transform hover:scale-105 relative z-10">
                   <span className="flex items-center space-x-3">
                     <Play className="w-5 h-5" />
                     <span>Watch Demo</span>
@@ -153,7 +153,7 @@ export default function HomePage() {
         </div>
 
         {/* 3D Scene Background */}
-        <div className="absolute inset-0 opacity-60">
+        <div className="absolute inset-0 opacity-30 z-0">
           <Scene />
         </div>
 

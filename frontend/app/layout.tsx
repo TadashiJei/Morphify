@@ -133,7 +133,7 @@ export const metadata: Metadata = {
     "al:web:url": "https://morphify.io",
     "al:web:should_fallback": "true",
   },
-
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({

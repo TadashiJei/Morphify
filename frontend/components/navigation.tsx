@@ -35,8 +35,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+          <Link href="/" className="flex items-center space-x-2 relative z-50">
+            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center shadow-lg">
               <span className="text-white font-bold text-lg">M</span>
             </div>
             <span className="font-anton text-2xl text-gray-900">Morphify</span>
