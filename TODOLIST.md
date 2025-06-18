@@ -30,7 +30,8 @@ This document tracks the development progress of the Morphify project.
 
 ### Frontend Development
 - **[ ] UI/UX Design:** Design a user-friendly interface for the lending platform.
-- **[ ] Build Frontend:** Develop the frontend application (e.g., using React, Vue, or Svelte).
+- **[ ] Build Frontend:** Develop the main frontend application (e.g., using React, Vue, or Svelte).
+- **[ ] Build Admin Dashboard:** Develop a separate dashboard for administrative and monitoring purposes.
 - **[ ] Wallet Integration:** Connect the frontend to users' wallets (e.g., MetaMask).
 - **[ ] Smart Contract Interaction:** Integrate frontend with smart contracts for loan requests, funding, and repayments.
 - **[ ] Display Credit Scores:** Show users their Morph Credit Score.
